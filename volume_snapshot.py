@@ -186,7 +186,7 @@ for volume in volumes:
 
         # ... and take a look at each one
         for snapshot in snapshots:
-            logging.info('%s: Processing snapshot %s'volume.id, snapshot.id)
+            logging.info('%s: Processing snapshot %s', volume.id, snapshot.id)
 
             # try to get the snapshot expiration date...
             try:
